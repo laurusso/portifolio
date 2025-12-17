@@ -7,25 +7,30 @@
 }
 
 body {
-  background-color: #0d1b2a;
+  background-color: #10002b;
   color: #e0e0e0;
   line-height: 1.6;
 }
 
 /* ======= VARIÁVEIS ======= */
 :root {
-  --primary: #1e90ff;      /* azul principal */
-  --secondary: #ffffff;    /* branco destaque */
-  --dark: #0d1b2a;
-  --medium: #1b263b;
-  --light: #415a77;
+  --primary: #4361ee;     
+  --secondary: #ffffff;    
+  --dark: #10002b;
+  --medium: #240046;
+  --light: #9d4edd;
   --text: #e0e0e0;
 }
 
 /* ======= HEADER ======= */
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: var(--medium);
   padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: center;
   border-bottom: 2px solid var(--secondary);
 }
@@ -64,12 +69,13 @@ nav a:hover {
 }
 
 #sobre img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 30% 70% 60% 40% / 30% 30% 70% 70%;
+  transform: rotate(-5deg);
   object-fit: cover;
-  border: 3px solid var(--secondary);
-  box-shadow: 0 4px 15px rgba(255, 214, 10, 0.2);
+  border: 3px solid var(--primary);
+  box-shadow: 0 4px 15px rgba(10, 255, 194, 0.432);
 }
 
 #sobre h2 {
