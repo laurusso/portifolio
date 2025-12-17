@@ -84,11 +84,12 @@ nav a:hover {
 }
 
 #sobre p {
-  max-width: 600px;
+  max-width: 900px;
   margin-top: 10px;
   font-size: 1.1rem;
   color: #d6dbe0;
   line-height: 1.7;
+  text-align: justify;
 }
 
 /* ======= SEÇÃO PROJETOS ======= */
