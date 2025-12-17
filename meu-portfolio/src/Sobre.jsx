@@ -4,7 +4,7 @@ function Sobre() {
   return (
     <section id="sobre">
       <img src={FotoPerfil} alt="Foto de perfil" />
-      <h2>Olá, sou a Laura :)</h2>
+      <h2>Olá, sou a Laura</h2>
       <p>
         Sou estudante do 5º semestre do curso de Bacharelado em Sistemas de
         Informação (BSI) pela Universidade Estadual de Campinas (UNICAMP) na
